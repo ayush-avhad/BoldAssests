@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/BoldAssests',
+  assetPrefix: '/BoldAssests/',
   reactStrictMode: true,
   swcMinify: true,
   images: {
+    unoptimized: true,
     domains: ['images.unsplash.com'],
     formats: ['image/avif', 'image/webp'],
   },
