@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Getting Started with Web Development - In-depth guide on HTML, CSS, and JavaScript">
+    <title>Getting Started with Web Development - BoldAssests</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>BoldAssests</h1>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="blog-single.html" class="nav-link active">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <div class="theme-toggle">
+                <button class="theme-btn" id="themeToggle" title="Toggle Dark Mode">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Blog Post Header -->
+    <section class="blog-hero">
+        <div class="container">
+            <div class="blog-header">
+                <div class="blog-meta">
+                    <span class="blog-category">Web Development</span>
+                    <span class="blog-date">July 5, 2026</span>
+                    <span class="blog-reading-time">8 min read</span>
+                </div>
+                <h1>Getting Started with Web Development</h1>
+                <p class="blog-subtitle">Learn the fundamentals of HTML, CSS, and JavaScript to build stunning web applications.</p>
+                <div class="blog-author">
+                    <div class="author-avatar">👨‍💻</div>
+                    <div class="author-info">
+                        <h4>Alex Johnson</h4>
+                        <p>Senior Web Developer & Tech Educator</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Content -->
+    <section class="blog-content-section">
+        <div class="container">
+            <article class="blog-post">
+                <!-- Table of Contents -->
+                <aside class="toc-sidebar">
+                    <h3>Table of Contents</h3>
+                    <ul class="toc-list">
+                        <li><a href="#introduction">Introduction</a></li>
+                        <li><a href="#html">HTML Basics</a></li>
+                        <li><a href="#css">CSS Styling</a></li>
+                        <li><a href="#javascript">JavaScript Interactivity</a></li>
+                        <li><a href="#tools">Essential Tools</a></li>
+                        <li><a href="#conclusion">Conclusion</a></li>
+                    </ul>
+                </aside>
+
+                <!-- Main Content -->
+                <div class="blog-main">
+                    <h2 id="introduction">Introduction</h2>
+                    <p>Web development has become one of the most sought-after skills in the tech industry. Whether you want to build personal projects, start a career, or create products, understanding the fundamentals of web development is essential.</p>
+                    <p>In this comprehensive guide, we'll explore the three pillars of web development: HTML, CSS, and JavaScript. By the end, you'll have a solid foundation to start building your own websites.</p>
+
+                    <h2 id="html">HTML Basics</h2>
+                    <p>HTML (HyperText Markup Language) is the backbone of web development. It provides the structure and semantic meaning to web content.</p>
+                    
+                    <h3>Key HTML Concepts:</h3>
+                    <ul class="blog-list">
+                        <li><strong>Elements:</strong> Building blocks of HTML (tags)</li>
+                        <li><strong>Attributes:</strong> Provide additional information about elements</li>
+                        <li><strong>Semantic HTML:</strong> Using proper tags for better accessibility</li>
+                        <li><strong>Forms:</strong> Creating user input interfaces</li>
+                    </ul>
+
+                    <div class="code-block">
+                        <p class="code-label">Basic HTML Structure:</p>
+                        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;title&gt;My Website&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Welcome!&lt;/h1&gt;
+    &lt;p&gt;This is my first web page.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                    </div>
+
+                    <h2 id="css">CSS Styling</h2>
+                    <p>CSS (Cascading Style Sheets) is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content.</p>
+
+                    <h3>CSS Fundamentals:</h3>
+                    <ul class="blog-list">
+                        <li><strong>Selectors:</strong> Target HTML elements to style</li>
+                        <li><strong>Properties & Values:</strong> Define the styling rules</li>
+                        <li><strong>Box Model:</strong> Understand margin, padding, border, and content</li>
+                        <li><strong>Flexbox & Grid:</strong> Modern layout techniques</li>
+                    </ul>
+
+                    <div class="code-block">
+                        <p class="code-label">CSS Example:</p>
+                        <pre><code>/* Styling the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Styling headings */
+h1 {
+  color: #2563eb;
+  text-align: center;
+}</code></pre>
+                    </div>
+
+                    <h2 id="javascript">JavaScript Interactivity</h2>
+                    <p>JavaScript brings interactivity to web pages. It allows you to respond to user events and manipulate the DOM (Document Object Model).</p>
+
+                    <h3>JavaScript Essentials:</h3>
+                    <ul class="blog-list">
+                        <li><strong>Variables & Data Types:</strong> Store and manage data</li>
+                        <li><strong>Functions:</strong> Reusable blocks of code</li>
+                        <li><strong>DOM Manipulation:</strong> Change HTML and CSS dynamically</li>
+                        <li><strong>Event Listeners:</strong> Respond to user interactions</li>
+                    </ul>
+
+                    <div class="code-block">
+                        <p class="code-label">JavaScript Example:</p>
+                        <pre><code>// Get element by ID
+const button = document.getElementById('myButton');
+
+// Add click event listener
+button.addEventListener('click', function() {
+  alert('Button clicked!');
+  this.style.backgroundColor = '#4CAF50';
+});</code></pre>
+                    </div>
+
+                    <h2 id="tools">Essential Tools</h2>
+                    <p>To become productive in web development, familiarize yourself with these tools:</p>
+                    
+                    <div class="tools-grid">
+                        <div class="tool-item">
+                            <h4>🎨 Code Editors</h4>
+                            <p>VS Code, Sublime Text, WebStorm</p>
+                        </div>
+                        <div class="tool-item">
+                            <h4>🌐 Browsers</h4>
+                            <p>Chrome, Firefox, Safari, Edge</p>
+                        </div>
+                        <div class="tool-item">
+                            <h4>🛠️ DevTools</h4>
+                            <p>Browser Inspector, Console, Debugger</p>
+                        </div>
+                        <div class="tool-item">
+                            <h4>📦 Version Control</h4>
+                            <p>Git, GitHub, GitLab</p>
+                        </div>
+                    </div>
+
+                    <h2 id="conclusion">Conclusion</h2>
+                    <p>Web development is a rewarding field with endless possibilities. Start with these fundamentals, practice regularly, and gradually build more complex projects. Remember, every expert was once a beginner!</p>
+
+                    <div class="blog-callout">
+                        <h3>Ready to Start?</h3>
+                        <p>Check out our other guides and tutorials to deepen your web development knowledge. Happy coding! 🚀</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Related Posts -->
+            <section class="related-posts">
+                <h2>Related Posts</h2>
+                <div class="posts-grid">
+                    <article class="related-card">
+                        <h3>Advanced React Patterns & Best Practices</h3>
+                        <p>Master advanced React concepts including hooks, context API, and performance optimization.</p>
+                        <a href="#" class="read-link">Read More →</a>
+                    </article>
+                    <article class="related-card">
+                        <h3>Database Design Fundamentals</h3>
+                        <p>Understanding relational databases, normalization, and efficient query optimization.</p>
+                        <a href="#" class="read-link">Read More →</a>
+                    </article>
+                    <article class="related-card">
+                        <h3>API Development Best Practices</h3>
+                        <p>Learn to design scalable REST APIs with security, documentation, and testing.</p>
+                        <a href="#" class="read-link">Read More →</a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Comments Section -->
+            <section class="comments-section">
+                <h2>Comments (3)</h2>
+                <div class="comments-list">
+                    <div class="comment">
+                        <div class="comment-author">
+                            <div class="comment-avatar">👨</div>
+                            <div class="comment-meta">
+                                <h4>Sarah Chen</h4>
+                                <span class="comment-date">2 days ago</span>
+                            </div>
+                        </div>
+                        <p class="comment-text">Great guide! This is exactly what I needed to get started with web development. The code examples are very helpful.</p>
+                    </div>
+                    <div class="comment">
+                        <div class="comment-author">
+                            <div class="comment-avatar">👩</div>
+                            <div class="comment-meta">
+                                <h4>Mike Rodriguez</h4>
+                                <span class="comment-date">1 day ago</span>
+                            </div>
+                        </div>
+                        <p class="comment-text">Thanks for breaking down these concepts so clearly. Can you do a deep dive on CSS Grid next?</p>
+                    </div>
+                    <div class="comment">
+                        <div class="comment-author">
+                            <div class="comment-avatar">👨</div>
+                            <div class="comment-meta">
+                                <h4>Alex Johnson</h4>
+                                <span class="comment-date">12 hours ago</span>
+                            </div>
+                        </div>
+                        <p class="comment-text">@Mike - Great suggestion! CSS Grid Deep Dive is coming next week. Stay tuned! 😊</p>
+                    </div>
+                </div>
+
+                <!-- Comment Form -->
+                <form class="comment-form" id="commentForm">
+                    <h3>Leave a Comment</h3>
+                    <div class="form-group">
+                        <label for="comment-name">Name *</label>
+                        <input type="text" id="comment-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment-text">Comment *</label>
+                        <textarea id="comment-text" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Post Comment</button>
+                </form>
+            </section>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>BoldAssests</h4>
+                    <p>Your go-to platform for tech education and industry insights.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 BoldAssests. All rights reserved. | MIT License</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
