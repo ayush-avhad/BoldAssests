@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BoldAssests - Your premier tech blog and guidance platform featuring tips, guides, news, and in-depth articles">
+    <title>BoldAssests - Tech Blog & Guidance Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>BoldAssests</h1>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="blog-single.html" class="nav-link">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <div class="theme-toggle">
+                <button class="theme-btn" id="themeToggle" title="Toggle Dark Mode">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Welcome to BoldAssests</h2>
+                <p>Your Ultimate Tech Blog & Guidance Platform</p>
+                <p class="hero-subtitle">Stay updated with the latest tech tips, comprehensive guides, and industry news</p>
+                <button class="cta-btn">Explore Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Content Section -->
+    <section class="featured" id="blog">
+        <div class="container">
+            <h2 class="section-title">Featured Blog Posts</h2>
+            <div class="content-grid">
+                <!-- Blog Post 1 -->
+                <article class="card">
+                    <div class="card-image">📝</div>
+                    <h3>Getting Started with Web Development</h3>
+                    <p>Learn the fundamentals of HTML, CSS, and JavaScript to build stunning web applications.</p>
+                    <div class="card-footer">
+                        <span class="date">July 5, 2026</span>
+                        <a href="blog-single.html" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="card">
+                    <div class="card-image">🚀</div>
+                    <h3>Advanced React Patterns & Best Practices</h3>
+                    <p>Master advanced React concepts including hooks, context API, and performance optimization.</p>
+                    <div class="card-footer">
+                        <span class="date">July 3, 2026</span>
+                        <a href="blog-single.html" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="card">
+                    <div class="card-image">💾</div>
+                    <h3>Database Design Fundamentals</h3>
+                    <p>Understanding relational databases, normalization, and efficient query optimization.</p>
+                    <div class="card-footer">
+                        <span class="date">June 28, 2026</span>
+                        <a href="blog-single.html" class="read-more">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Tips Section -->
+    <section class="tips" id="tips">
+        <div class="container">
+            <h2 class="section-title">Quick Tech Tips</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <h4>💡 Tip #1: Keyboard Shortcuts</h4>
+                    <p>Master essential IDE shortcuts to boost your coding productivity by 40%.</p>
+                </div>
+                <div class="tip-card">
+                    <h4>⚡ Tip #2: API Optimization</h4>
+                    <p>Reduce API response time by implementing caching strategies effectively.</p>
+                </div>
+                <div class="tip-card">
+                    <h4>🔐 Tip #3: Security Best Practices</h4>
+                    <p>Protect your applications from common vulnerabilities and threats.</p>
+                </div>
+                <div class="tip-card">
+                    <h4>📱 Tip #4: Responsive Design</h4>
+                    <p>Build mobile-friendly websites that work seamlessly across all devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Guidance Section -->
+    <section class="guidance" id="guidance">
+        <div class="container">
+            <h2 class="section-title">Comprehensive Guides</h2>
+            <div class="guides-list">
+                <div class="guide-item">
+                    <div class="guide-number">01</div>
+                    <div class="guide-content">
+                        <h3>Complete Git & GitHub Guide</h3>
+                        <p>Learn version control, branching strategies, and collaborative workflows for professional development teams.</p>
+                        <a href="blog-single.html" class="guide-link">Start Learning</a>
+                    </div>
+                </div>
+                <div class="guide-item">
+                    <div class="guide-number">02</div>
+                    <div class="guide-content">
+                        <h3>Full-Stack Development Path</h3>
+                        <p>Step-by-step roadmap to become a proficient full-stack developer with modern technologies.</p>
+                        <a href="blog-single.html" class="guide-link">Start Learning</a>
+                    </div>
+                </div>
+                <div class="guide-item">
+                    <div class="guide-number">03</div>
+                    <div class="guide-content">
+                        <h3>Cloud Deployment Essentials</h3>
+                        <p>Master AWS, Azure, or Google Cloud to deploy scalable applications in the cloud.</p>
+                        <a href="blog-single.html" class="guide-link">Start Learning</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech News Section -->
+    <section class="news" id="news">
+        <div class="container">
+            <h2 class="section-title">Latest Tech News</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-tag">Breaking</div>
+                    <h4>AI Revolution: New Language Models Released</h4>
+                    <p>Latest breakthroughs in artificial intelligence and machine learning technologies.</p>
+                    <span class="news-date">2 hours ago</span>
+                </div>
+                <div class="news-card">
+                    <div class="news-tag">Update</div>
+                    <h4>JavaScript 2026 Features Announced</h4>
+                    <p>Exciting new features coming to JavaScript that will enhance developer experience.</p>
+                    <span class="news-date">5 hours ago</span>
+                </div>
+                <div class="news-card">
+                    <div class="news-tag">Announcement</div>
+                    <h4>New Framework for Web3 Development</h4>
+                    <p>A comprehensive framework for building decentralized applications and smart contracts.</p>
+                    <span class="news-date">1 day ago</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest tech tips, news, and guidance delivered to your inbox</p>
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="subscribe-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>BoldAssests</h4>
+                    <p>Your go-to platform for tech education and industry insights.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog-single.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 BoldAssests. All rights reserved. | MIT License</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
